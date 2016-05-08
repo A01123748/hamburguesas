@@ -12,6 +12,8 @@
 		91FD41131CD7F11D00AA7630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD41111CD7F11D00AA7630 /* Main.storyboard */; };
 		91FD41151CD7F11E00AA7630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FD41141CD7F11E00AA7630 /* Assets.xcassets */; };
 		91FD41181CD7F11E00AA7630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD41161CD7F11E00AA7630 /* LaunchScreen.storyboard */; };
+		91FD41201CD7F13F00AA7630 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD411F1CD7F13F00AA7630 /* Datos.swift */; };
+		91FD41221CD7F6C900AA7630 /* coloresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD41211CD7F6C900AA7630 /* coloresStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		91FD41141CD7F11E00AA7630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91FD41171CD7F11E00AA7630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91FD41191CD7F11E00AA7630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FD411F1CD7F13F00AA7630 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		91FD41211CD7F6C900AA7630 /* coloresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coloresStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				91FD41141CD7F11E00AA7630 /* Assets.xcassets */,
 				91FD41161CD7F11E00AA7630 /* LaunchScreen.storyboard */,
 				91FD41191CD7F11E00AA7630 /* Info.plist */,
+				91FD411F1CD7F13F00AA7630 /* Datos.swift */,
+				91FD41211CD7F6C900AA7630 /* coloresStruct.swift */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				91FD41101CD7F11D00AA7630 /* ViewController.swift in Sources */,
 				91FD410E1CD7F11D00AA7630 /* AppDelegate.swift in Sources */,
+				91FD41221CD7F6C900AA7630 /* coloresStruct.swift in Sources */,
+				91FD41201CD7F13F00AA7630 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
